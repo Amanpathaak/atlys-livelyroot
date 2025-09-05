@@ -39,7 +39,7 @@ atlys-sdet-assignment/
 ```
 
 ---
-
+Test plan link: https://docs.google.com/spreadsheets/d/1PFdYUJwJlwy--OQufkrbRMnlODG0PtP_v-2pT4MYRcI/edit?gid=0#gid=0
 ## How to Run
 
 ### Prereqs
