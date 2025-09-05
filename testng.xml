@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Atlys SDET Assignment Suite" parallel="false">
+  <test name="UI Tests" verbose="2">
+    <groups>
+      <run>
+        <include name="ui"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.atlys.ui.tests.SearchTests"/>
+    </classes>
+  </test>
+
+  <test name="API Tests" verbose="2">
+    <groups>
+      <run>
+        <include name="api"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.atlys.api.tests.SearchApiTests"/>
+    </classes>
+  </test>
+</suite>

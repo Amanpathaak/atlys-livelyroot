@@ -1,0 +1,9 @@
+S.no,Test case description,Test Data,Expected outcome,Actual outcome,Test status
+TC_01,"Search with a valid keyword should return a non-empty results grid.","Keyword: monstera","Suggestions for 'monstera' are shown; URL is search page; ≥1 product tile visible","Suggestions for 'monstera' are shown; URL is search page; ≥1 product tile visible",PASS
+TC_02,"Search with an invalid/irrelevant keyword shows 'no results' and no product.","Keyword: zzzxqwyqwy123","No suggestions; URL is search page; 'No results' message or 0 product tiles","No suggestions; URL is search page; 'No results' message or 0 product tiles",PASS
+TC_03,"Search trims leading/trailing spaces and still works.","Keyword: snake plant","Suggestions for 'snake plant' are shown; URL is search page; ≥1 product tile visible","Suggestions for 'snake plant' are shown; URL is search page; ≥1 product tile visible",PASS
+TC_04,"Search is case-insensitive.","Keyword: MoNsTeRa","Suggestions for 'monstera' are shown; URL is search page; ≥1 product tile visible","Suggestions for 'monstera' are shown; URL is search page; ≥1 product tile visible",PASS
+TC_05,"Empty search (pressing enter with blank field) does not break the page.","Keyword: (blank)","Default search result is shown; no page break","Default search result is shown; no page break",PASS
+TC_06,"Special characters are handled gracefully.","Keyword: @@@@ ####","No crash; no results for products","No crash; no results for products",PASS
+TC_07,"Search suggestions are shown for incomplete input.","Keyword: pla","Matching products to 'plant' are shown in suggestions","Matching products to 'plant' are shown in suggestions",PASS
+TC_08,"Clicking on a result from search input navigates to product page.","Keyword: monstera","Clicking on result navigates to product page","Clicking on result navigates to product page",PASS
