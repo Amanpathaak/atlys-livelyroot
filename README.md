@@ -101,7 +101,7 @@ We can point to a live service later by setting `-Dmock=false -DapiBaseUri=<real
 
 From the test plan (below), the following are automated in this repo:
 
-- **TC‑01** Positive search returns results (UI)
+- **TC‑01** Positive search returns results (UI)`
 - **TC‑02** Invalid search shows no results (UI)
 - **TC‑03** Trims spaces still returns results (UI)
 - **API‑01/02/03** Valid, Missing Param, No Matches (API)
